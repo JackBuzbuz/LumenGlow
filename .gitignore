@@ -1,0 +1,9 @@
+# Build output (rebuild with build_mac.sh or CMake)
+build/
+
+# macOS
+.DS_Store
+
+# Never commit the Adobe After Effects SDK: its license doesn't allow redistribution.
+AfterEffectsSDK*/
+*SDK*.zip
